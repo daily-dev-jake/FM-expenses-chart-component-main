@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(27, 66%, 92%);
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6rem;
+  border-radius: 0.5em;
+  width: 24rem;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.top span {
+  color: hsl(33, 100%, 98%);
+}
+
+.top-graphics {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.whiteCircle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translate(50%, 0);
+  background: radial-gradient(
+    rgba(255, 113, 12, 0) 60%,
+    hsla(33, 100%, 98%, 0.75) 60.5%,
+    hsl(33, 100%, 98%) 51.5%
+  );
+}
+.blackCircle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: black;
+}
+
+.balance-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.balance-wrapper :first-child {
+  font-size: 1rem;
+}
+.balance-wrapper :last-child {
+  font-size: 2rem;
+}
+.spending-wrapper {
+  margin-top: 1rem;
+  width: 22rem;
+  border-radius: 0.5em;
+  padding: 1rem;
+  background-color: hsl(33, 100%, 98%);
+}
+.barchart-wrapper {
+  font-size: 0.7em;
+  color: hsl(25, 47%, 15%);
+}
+
+.total-wrapper {
+  display: flex;
+  flex-direction: row;
+}
